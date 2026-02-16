@@ -5,6 +5,7 @@ export interface TimeRange {
   start: string; // HH:mm format (24h)
   end: string;   // HH:mm format (24h)
   type: AvailabilityType;
+  days: number[]; // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
 }
 
 export interface Member {

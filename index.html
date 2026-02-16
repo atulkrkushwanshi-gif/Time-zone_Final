@@ -43,6 +43,16 @@
         background-color: #050505;
         color: #e4e4e7;
       }
+      
+      /* Micro-interactions */
+      @keyframes pulse-glow {
+        0%, 100% { opacity: 0.2; }
+        50% { opacity: 0.4; }
+      }
+
+      .animate-pulse-glow {
+        animation: pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+      }
     </style>
   <script type="importmap">
 {

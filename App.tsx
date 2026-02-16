@@ -12,8 +12,8 @@ export const DEFAULT_MEMBERS: Member[] = [
     email: 'you@example.com',
     timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
     availability: [
-      { id: '101', start: '09:00', end: '12:00', type: 'preferred' },
-      { id: '102', start: '13:00', end: '18:00', type: 'preferred' }
+      { id: '101', start: '09:00', end: '12:00', type: 'preferred', days: [1, 2, 3, 4, 5] },
+      { id: '102', start: '13:00', end: '18:00', type: 'preferred', days: [1, 2, 3, 4, 5] }
     ]
   },
   {
@@ -22,7 +22,7 @@ export const DEFAULT_MEMBERS: Member[] = [
     email: 'sarah@example.com',
     timezone: 'Europe/London',
     availability: [
-      { id: '201', start: '10:00', end: '16:00', type: 'preferred' }
+      { id: '201', start: '10:00', end: '16:00', type: 'preferred', days: [1, 2, 3, 4, 5] }
     ]
   },
   {
@@ -31,7 +31,7 @@ export const DEFAULT_MEMBERS: Member[] = [
     email: 'raj@example.com',
     timezone: 'Asia/Kolkata',
     availability: [
-      { id: '301', start: '11:00', end: '20:00', type: 'preferred' }
+      { id: '301', start: '11:00', end: '20:00', type: 'preferred', days: [1, 2, 3, 4, 5] }
     ]
   }
 ];

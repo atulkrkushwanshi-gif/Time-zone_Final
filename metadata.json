@@ -1,0 +1,5 @@
+{
+  "name": "Schedule M",
+  "description": "A CRED-inspired minimalist timezone meeting scheduler with overlap detection and Google Calendar integration.",
+  "requestFramePermissions": []
+}
